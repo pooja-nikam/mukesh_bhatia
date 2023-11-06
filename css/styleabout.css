@@ -1,0 +1,136 @@
+.main-banner{
+			background:url('../images/web-banner.jpg') no-repeat;
+			background-size:cover;
+			height:150px;
+			padding-top:0;
+		}
+		.banner-content h1{
+			margin-left:400px;
+			float:left;
+			padding-top:50px;
+			color:#fff;
+		}
+
+		
+		.banner-content ul li{
+			display:inline;
+			float:right;
+			margin-right:30px;
+			padding-top:80px;
+		
+		}
+		
+		.banner-content ul li a{
+			text-decoration:none;
+			color:#fff;
+			
+		}
+		
+		.banner-content ul li a:hover{
+		color:red
+		}
+		
+		.banner-content ul{
+		padding-right:150px;
+		}
+		
+		.our-partner{
+			padding:100px 0;
+		}
+		
+		footer{
+			background:black;
+			height:80px;
+			padding-top:20px
+			
+		}
+		
+		footer ul li{
+		display:inline;
+		margin-right:20px;
+		}
+		
+		footer ul{
+			padding-left:20px;
+			
+		}
+		
+		footer a{
+		text-decoration:none;
+		color:red;
+		}
+	
+		footer a:hover {
+		color:#fff;
+		}
+		
+		.copyright p{
+		text-align:center;
+		background:gray;
+		color:white;
+		padding:10px 0;
+		margin-bottom:0;
+		
+		}
+		
+		.copyright span{
+		color:red;
+		
+		}
+		
+
+		.main-banner{
+			background:url('../images/web-banner.jpg') no-repeat;
+			background-size:cover;
+			height:150px;
+			padding-top:0;
+			}
+		
+			.banner-content h1{
+				color: #fff;
+				text-align: center;
+				padding-top: 40px;
+				font-size: 40px;
+		
+			}
+		
+			.gallery p{
+			font-size:20px;
+			text-align:center;
+			padding-top: 30px;
+			}
+		
+			.gallery p{
+			font-size:20px;
+			text-align:center;
+			}
+		
+			.gallery .image {
+		
+				position:relative;
+			}
+		
+			.gallery .overlay{
+		
+				position:absolute;
+				bottom:0;
+				background-color: rgba(0,0,0,0.5);
+				width:100%;
+				top:0;
+				opacity: 0; 
+				color:rgb(6, 1, 1);
+				transition: .5s ease;
+				padding-top: 83px;
+		
+			}
+		
+			.gallery .image:hover .overlay{
+		
+				opacity:1;
+			}
+		
+			.gallery-photo:hover .word{
+		
+				display:none;
+			}
+		

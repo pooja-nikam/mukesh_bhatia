@@ -1,0 +1,142 @@
+			body, p, h1, h2 {
+				margin:0;
+				padding:0;
+			}
+			.addressbar{
+				text-align:center;
+			}
+			.addressbar p{
+				background:gray;
+				color:white;
+				margin:0;
+			}
+			header{
+				height:80px;
+				
+			}
+			.container{
+				width:80%;
+				margin:0 auto;
+			}
+			.navbar{
+				float:right;
+			}
+			.navbar ul li{
+				display:inline;
+				margin-left:20px;
+			}
+			.navbar ul li a{
+				text-decoration:none;
+				font-size:30px;
+			}
+			.navbar ul li a:hover{
+				color:red;
+			}
+			
+			.main-banner {
+				background:url('../images/website-banner.jpg');
+				height:500px;
+			}
+				
+			.banner-content {
+				text-align:center;
+				padding-top:50px;
+			}
+			
+			.banner-content img {
+				width:200px;
+			}
+			
+			.banner-content h1 {
+				font-size:60px;
+				margin:0;
+				color:#be1d2d;
+			}
+			
+			.banner-content p {
+				font-size:30px;
+				color:yellow;
+			}
+			
+			.our-features {
+				padding-top:30px;
+				background:#80808038;
+				height:250px;
+				text-align:center;
+			}
+			
+			.feature-sec {
+					
+				width:23%;
+				float:left;
+				padding:0 10px;
+				
+			}
+			
+			.feature-sec i {
+				font-size:30px;
+			}
+			
+			.feature-sec:hover i {
+				color:red;
+			}
+			
+			.feature-sec p {
+				text-align:justify !important;
+			}
+			
+			.info-banner {
+				background:url('../images/info-banner.jpg') no-repeat;
+				background-size:cover;
+				background-attachment:fixed;
+				height:300px;
+				text-align:center;
+			}
+			
+			.info-content {
+				padding-top:150px;
+				color:#fff;
+				font-size:40px;
+			}
+			
+			.our-partner {
+				height:300px;
+			}
+			
+			.our-partner h2 {
+				text-align:center;
+				font-size:30px;
+				padding:20px 0;
+			}
+			
+			footer {
+				background:#000;
+				height: 80px;
+				padding-top: 20px;
+			}
+
+			footer ul li {
+				display: inline;
+				margin-right: 20px;
+			}
+
+			footer a {
+				color:gray;
+				text-decoration: none;
+			}
+
+			footer a:hover {
+				color:#fff;
+			}
+
+			.copyright {
+				background:#0000006c;
+				text-align: center;
+				padding: 10px 0;
+			}
+
+			.copyright span {
+				color:red;
+			}
+
+			
